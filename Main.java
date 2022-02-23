@@ -23,4 +23,12 @@ public class Main {
     private int resta(int a, int b) {
         return a-b;
     }
+    
+    private int multiplicacion(int a, int b) {
+        return a*b;
+    }
+    
+    private int division(int a, int b) {
+        return a/b;
+    }
 }
