@@ -14,25 +14,50 @@ public class Main {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        test_suma();
+        test_resta();
+        test_multiplicacion();
+        test_division();
+        test_suma_tres();
     }
    
-    private int suma(int a, int b) {
+    private static int suma(int a, int b) {
         return a+b;
     }
  
-    private int resta(int a, int b) {
+    private static int resta(int a, int b) {
         return a-b;
     }
     
-    private int multiplicacion(int a, int b) {
+    private static int multiplicacion(int a, int b) {
         return a*b;
     }
     
-    private int division(int a, int b) {
+    private static int division(int a, int b) {
         return a/b;
     }
     
-    private int suma_tres(int a, int b, int c) {
+    private static int suma_tres(int a, int b, int c) {
         return a+b+c;
+    }
+    
+    static private void test_suma() {
+        System.out.println(suma(3, 4));
+    }
+    
+    private static void test_resta() {
+        System.out.println(resta(3, 4));
+    }
+    
+    private static void test_multiplicacion() {
+        System.out.println(multiplicacion(3, 4));
+    }
+    
+    private static void test_division() {
+        System.out.println(division(3, 4));
+    }
+    
+    private static void test_suma_tres() {
+        System.out.println(suma_tres(3, 4, 5));
     }
 }
