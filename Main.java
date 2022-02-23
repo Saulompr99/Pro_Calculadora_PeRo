@@ -15,5 +15,12 @@ public class Main {
     public static void main(String[] args) {
         // TODO code application logic here
     }
-    
+   
+    private int suma(int a, int b) {
+        return a+b;
+    }
+ 
+    private int resta(int a, int b) {
+        return a-b;
+    }
 }
