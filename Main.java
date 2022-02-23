@@ -31,4 +31,8 @@ public class Main {
     private int division(int a, int b) {
         return a/b;
     }
+    
+    private int suma_tres(int a, int b, int c) {
+        return a+b+c;
+    }
 }
