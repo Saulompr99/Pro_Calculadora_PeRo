@@ -15,5 +15,7 @@ public class Main {
     public static void main(String[] args) {
         // TODO code application logic here
     }
-    
+    private int suma_tres(int a, int b, int c) {
+        return a+b+c;
+    }
 }
