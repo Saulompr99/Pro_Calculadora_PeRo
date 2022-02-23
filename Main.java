@@ -16,4 +16,11 @@ public class Main {
         // TODO code application logic here
     }
     
+    private int multiplicacion(int a, int b) {
+        return a*b;
+    }
+    
+    private int division(int a, int b) {
+        return a/b;
+    }
 }
